@@ -20,7 +20,6 @@ s('[class="result-snippet-link"]').click()
 # ASSERT
 # користувач перевіряє що на відкритій сторінці
 # є три локальні посилання на https://github.com/yashaka/selene
-print(ss('[href="/yashaka/selene"]'))
 ss('[href="/yashaka/selene"]').should(have.size(3))
 
 browser.quit()
